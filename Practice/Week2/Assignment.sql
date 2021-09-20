@@ -46,3 +46,9 @@ WHERE productScale LIKE '1:10'
 ORDER BY productLine DESC, productNAME DESC;
 
 
+USE classicmodels;
+SELECT * 
+FROM payments
+-- WHERE amount BETWEEN 49614 AND 49706
+-- WHERE amount IN (49614.52, 49705.52)
+ORDER BY amount DESC;
